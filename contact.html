@@ -1,49 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
     <title>Contact Information</title>
 
 </head>
-<body>
 
-     <header>
+<body class="bg-light">
+    <div class="container-fluid">
 
-         <!--Name for Portfolio-->
-         <h1>William Gonzales</h1>
-            
-         <!--Directories-->
-         <a class="directory" href="index.html">About</a>
-         <a class="directory" href="portfolio.html">Portfolio</a>
-         <a class="directory" href="contact.html">Contact</a>
-            
-            
-            
-     </header>
-    
-     <div>
+        <header>
 
-     <h2>Contact</h2>
-    
-     <h4>Name</h4>
-     <div></div>   
+            <div class="row p-1 mb-3  bg-white text-dark border-bottom border-secondary">
 
-     <h4>Email</h4>
-     <div></div>
+                <div class="col-sm-2">
 
-     <h4>Message</h4>
-     <div></div>
-    
-    
+                </div>
+
+
+                <div class="col-xs-3 align-self-end pt-2 pl-1 bg-info text-white rounded border border-info">
+                    <h2>William Gonzales</h2>
+
+                </div>
+
+
+                <div class="col-sm-3">
+                    <!--Space between directory and Name-->
+                </div>
+
+                <div class="col-xs-2">
+                    <nav class="navbar fixed-top-right navbar-light bg-white mr-4">
+                        <a class="navbar-brand text-muted" href="index.html">About</a>
+                        <a class="navbar-brand text-muted" href="portfolio.html">Portfolio</a>
+                        <a class="navbar-brand text-muted" href="contact.html">Contact</a>
+                    </nav>
+
+                </div>
+
+            </div>
+
+    </div>
+    <div class="container bg-white">
+
+        <div class="row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8">
+                <h2 class="text-info border-bottom">Contact</h2>
+            </div>
+            <div class="col-sm-2"></div>
+        </div>
+        <br>
+
+        <div class="row">
+            <div class="col-md-4">
+
+            </div>
+            <form>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Name</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        placeholder="Enter email">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        placeholder="Enter email">
+                    <small id="emailHelp" class="form-text text-muted">Your email will not be shared without
+                        consent.</small>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+
+
+    </div>
+
+    <br>
+    <br>
+
+    <div>
+        <footer class="w-auto p-3 bg-secondary">
+            <h6 class="text-center">Copyright</h6>
+        </footer>
+    </div>
+
 </body>
 
-<footer>
-    <h6>Copyright</h6>
 
-</footer>
+
+
+
+
 </html>
