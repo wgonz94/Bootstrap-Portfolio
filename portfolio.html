@@ -11,6 +11,50 @@
 
     <title>Portfolio</title>
 
+    <style>
+            .container {
+              position: relative;
+              width: 50%;
+            }
+            
+            .image {
+              display: block;
+              width: 100%;
+              height: auto;
+            }
+            
+            .overlay {
+              position: absolute;
+              top: 0;
+              bottom: 0;
+              left: 0;
+              right: 0;
+              margin-left: 15px;
+              border-radius: 5px;
+              height: 200px;
+              width: 200px;
+              opacity: 0;
+              transition: .5s ease;
+              background-color: #008CBA;
+            }
+            
+            .container:hover .overlay {
+              opacity: 1;
+            }
+            
+            .text {
+              color: white;
+              font-size: 20px;
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              -webkit-transform: translate(-50%, -50%);
+              -ms-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%);
+              text-align: center;
+            }
+            </style>
+
 </head>
 
 <body class="bg-light">
@@ -24,13 +68,13 @@
             </div>
 
 
-            <div class="col-xs-3 align-self-end pt-2 pl-1 bg-info text-white rounded border border-info">
+            <div class="col-xs-3 align-self-end pt-2 pl-2 pr-2 bg-info text-white rounded border border-info">
                 <h2>William Gonzales</h2>
 
             </div>
 
 
-            <div class="col-sm-3">
+            <div class="col-sm-4">
                 <!--Space between directory and Name-->
             </div>
 
@@ -63,10 +107,12 @@
             <div class="col-sm-9">
                 <div class="row">
                     <div class="col-sm-2"></div>
-                    <div class="col-6 col-sm-3">
-                        <img src="assets/images/Hangman.jpeg" alt="Hangman Game" class="rounded border border-dark" width="200"
-                        height="200">
-                        <blockquote class="bg-info ml-3 mb-3 p-1 fixed-bottom position-absolute blockquote text-center">Hangman</blockquote>
+                    <div class="col-6 col-sm-3 container">
+                        <img src="assets/images/Hangman.jpeg" alt="Hangman Game" class="rounded border border-dark" width="200" height="200">
+                        <div class="overlay">
+                                <div class="text">Hangman</div>
+                              </div>
+                        <!-- <blockquote class="bg-info ml-3 mb-3 p-1 fixed-bottom position-absolute blockquote text-center">Hangman</blockquote> -->
                     </div>
                     <div class="col-1 col-sm-3"></div>
                     <div class="col-3 col-sm-4">
@@ -95,7 +141,7 @@
                 <div class="row">
                     <div class="col-sm-2"></div>
                     <div class="col-6 col-sm-3">
-                        <img src="assets/images/rockpaperscissors.jpg" alt="Rock Paper Scissors" class="rounded border border-dark" width="200" height="150">
+                        <img src="assets/images/rockpaperscissors.jpg" alt="Rock Paper Scissors" class="rounded border border-dark" width="200" height="200">
                         <blockquote class="bg-info ml-3 mb-3 p-1 fixed-bottom position-absolute blockquote text-center">Rock Paper Scissors</blockquote>
                     </div>
 
@@ -106,18 +152,18 @@
             <br>
             <br>
 
-            <div>
-            <footer class="w-auto p-3 bg-secondary">
-                <h6 class="text-center">Copyright ©</h6>
-            </footer>
-            </div>
-        
+            
 
 
     </div>
 </body>
 
-
+<div>
+            <footer class="w-auto p-3 bg-secondary fixed-sticky">
+                <h6 class="text-center">WG - 2019</h6>
+            </footer>
+            </div>
+        
 
 
 </html>
