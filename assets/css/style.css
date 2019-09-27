@@ -17,4 +17,40 @@ div.border{
 h2.about{
   color: #0F8B8D
 }
+@media screen and (max-width: 980px) {
+  .mynameSpace{
+    float: left;
+  }
+}
+
+@media screen and (max-width:768px) {
+  header{
+    width: 100%;
+    
+  }
+  .mynameSpace{
+    float: left;
+  }
+  #outside{
+    width: 100%;
+  }
   
+  
+}
+
+@media screen and (max-width:640px) {
+ img{
+   width: 100%!important;
+ }
+ img#mblRespons{
+   width: 200% !important;
+   margin-right: 55px!important;
+ }
+ .overlay{
+   width:80%!important;
+ }
+ 
+  
+}
+
+
