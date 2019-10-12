@@ -14,8 +14,39 @@ div.header{
 div.border{
   background-color:#303C6C 
 }
-h2.about{
-  color: #0F8B8D
+
+
+#image-holder {
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 25%;
+  /* Box-model */
+  width: 405px;
+
+  /* Typography */
+  text-align: center;
+
+  border: solid #303C6C 3px;
+}
+
+#image-holder2{
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 25%;
+   /* Box-model */
+   width: 405px;
+
+   /* Typography */
+   text-align: center;
+ 
+   border: solid #303C6C 3px;
+}
+
+button.about{
+  color: rgb(255, 255, 255);
+  background:#303C6C;
 }
 @media screen and (max-width: 980px) {
   .mynameSpace{
