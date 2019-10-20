@@ -17,8 +17,8 @@ function frontEndProjects() {
 function backEndProjects() {
     frontend.hide();
     backend.show();
-    $("#image-holder").hide;
-    $("#image-holder2").hide;
+    $(".front").hide();
+    $(".back").hide();
 }
 
 function slideShowProj() {
