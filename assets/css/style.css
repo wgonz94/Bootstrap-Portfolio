@@ -1,3 +1,6 @@
+*{
+  box-sizing: border-box;
+}
 body.otherColor{
   background-color:#dad2d8!important;
   
@@ -15,6 +18,16 @@ div.border{
   background-color:#303C6C 
 }
 
+.front-button:hover{
+background: white !important;
+border: 1px solid #303C6C !important;
+color: #303C6C !important;
+}
+.back-button:hover{
+  background: white !important;
+  border: 1px solid #303C6C !important;
+  color: #303C6C !important;
+  }
 
 #image-holder {
 

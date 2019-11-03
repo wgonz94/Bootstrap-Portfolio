@@ -46,7 +46,7 @@ startSlideshow()
 }
 function slideShowBackend(){
     //Slideshow for project preivew
-var images = ["assets/images/movie-this2.JPG", "assets/images/nodejs.png", "assets/images/express.jpg", "assets/images/comingsoon.png"];
+var images = ["assets/images/movie-this2.JPG", "assets/images/deployed-homepage.JPG", "assets/images/bamazonManagerOpt2.JPG"];
 var count = 0;
 var showImage;
 
